@@ -1,0 +1,80 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.square{
+    background-color: aquamarine;
+    width: 30%;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    /* please check on MDN  */
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    /* the last are not necessarily needed */
+}
+
+#container{
+    max-width: 600px;
+    margin:20px auto;
+        
+}
+
+h1{
+    color: white;
+    line-height: 1.1;
+    font-size: normal;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* span{
+    background-color: bisque;
+} */
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    background-color: blue;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s; 
+    /* refer to MDN/ */
+    outline: none;
+}
+
+#message{
+    display: inline-block;
+    width: 15%;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
+
